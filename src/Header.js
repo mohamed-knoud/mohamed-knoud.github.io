@@ -2219,9 +2219,9 @@ marginBottom:'6px',maxWidth: '100%',marginRight:'15px', height: '35px' ,width:'3
                 <span style={{ color: 'rgba(0,0,0,0.5)' }}>@{itm.username}</span>
               </div>
               </div>
-            {itm.me==0 && itm.ok!==0 && <button onClick={(e) => follow(e, itm.id)} className='follo'>Follow</button>}
+            {itm.me===0 && itm.ok!==0 && <button onClick={(e) => follow(e, itm.id)} className='follo'>Follow</button>}
       
-            {itm.me==0 && itm.ok===0  && <button onClick={(e)=>unfollow(e,itm.id)} className='unfollo'>Unfollow</button>}
+            {itm.me===0 && itm.ok===0 && <button onClick={(e)=>unfollow(e,itm.id)} className='unfollo'>Unfollow</button>}
               </div>
             </div>
             
