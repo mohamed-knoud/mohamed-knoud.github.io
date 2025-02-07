@@ -47,7 +47,7 @@ function Home() {
       }else{
         try {
           // Send formData to PHP backend
-          const response = await axios.post('http://localhost/api/auth.php', formData);
+          const response = await axios.post('https://soc-net.info/api/auth.php', formData);
           console.log('Form data sent successfully:', response.data);
           if(response.data.response1 && response.data.response1.success===2){
               navigate('/admin');
