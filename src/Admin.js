@@ -15,7 +15,7 @@ function Admin() {
   const [error, setError] = useState(null);
   const handleUnBlock = async (e,email) => {
     try {
-       const responsee = await axios.post('http://localhost/api/unBlockUser.php',  {
+       const responsee = await axios.post('https://soc-net.info/api/unBlockUser.php',  {
                 email:email
               });
       window.location.reload(true);
@@ -27,7 +27,7 @@ function Admin() {
 };
   const handleBlock = async (e,email) => {
     try {
-       const responsee = await axios.post('http://localhost/api/blockUser.php',  {
+       const responsee = await axios.post('https://soc-net.info/api/blockUser.php',  {
                 email:email
               });
       window.location.reload(true);
@@ -42,7 +42,7 @@ const handleVerify = async (e,email) => {
   e.target.innerHTML = '<span className="verify">Verified</span>';
   e.target.style.opacity = '0.5';
   try {
-       const responsee = await axios.post('http://localhost/api/activate.php',  {
+       const responsee = await axios.post('https://soc-net.info/api/activate.php',  {
                 email:email
               });
         } catch (error) {
@@ -65,7 +65,7 @@ const handleVerify = async (e,email) => {
 
   try {
     // Send formData to PHP backend
-    const response = await axios.post('http://localhost/api/auth.php', formData);
+    const response = await axios.post('https://soc-net.info/api/auth.php', formData);
     console.log('Form data sent successfully:', response.data);
 
     if (response.data.response2 && response.data.response2.success === 1) {
@@ -82,7 +82,7 @@ const handleVerify = async (e,email) => {
 
   useEffect(() => {
     // Define your API URL
-    const url = 'http://localhost/api/stats.php';
+    const url = 'https://soc-net.info/api/stats.php';
 
     // Perform the GET request using Axios
     axios.get(url)
@@ -188,7 +188,7 @@ const handleVerify = async (e,email) => {
                       transition: 'opacity 0.5s ease',
                       borderRadius: '50%',
                       cursor:'initial'
-                  }} src={`http://localhost/api/${item.image}`} alt='profile'/>}
+                  }} src={`https://soc-net.info/api/${item.image}`} alt='profile'/>}
             <div>
               <span style={{fontWeight:'bold'}}>{item.first_name} {item.last_name}</span> - <span style={{color:'gray'}}>@{item.username}</span><br/>
               <span style={{color:'gray'}}>{item.email}</span>
