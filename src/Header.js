@@ -1770,7 +1770,7 @@ marginRight:'10px',objectFit: 'cover',width:'45px',height:'45px',borderRadius:'5
 })}
 
       </div>
-      <div style={{width:'100%',display:'flex',justifyContent:'space-around',alignItems:'center'}}>
+      <div style={{width:'100%',padding:'5px',display:'flex',justifyContent:'space-around',alignItems:'center'}}>
         <input autocomplete="off" value={content} onChange={handleContentChange} placeholder='say something...' type="text" name="say" id="say"/>
         <button className="send" type="submit">Send</button>
         </div>
