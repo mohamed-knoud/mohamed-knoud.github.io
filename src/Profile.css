@@ -12,6 +12,11 @@ header{
 input#say:focus{
   outline: 3px solid #0c6dfd;
 }
+.senegal{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
 input#say{
  height:35px;
  padding:10px;
