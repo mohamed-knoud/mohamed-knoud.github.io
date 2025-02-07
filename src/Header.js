@@ -1654,9 +1654,9 @@ up.current.style.display='none'
                   })
                   setRess(rresponses.data)
                   if(rresponses.data[0].likers[0].ok)
-                    console.log('ok')
+                    alert('ok')
                   else
-                    console.log('no')
+                    alert('no')
                   
                   setCheckNewComments(rresponses.data)
                   // console.log(rresponses.data)
