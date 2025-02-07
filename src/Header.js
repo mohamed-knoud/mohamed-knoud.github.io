@@ -391,11 +391,11 @@ function Header() {
     if(id){
      data = { id_suiveur:res.data.response.id,id_suivi:id }; 
     //  console.log(11)
-    // console.log(data)
+    console.log(data)
 
     }else{
     //  console.log(112)
-    // console.log(data)
+    console.log(data)
 
     data = { id_suiveur:res.response.data.id,id_suivi:res.data.response.id }; 
     }
@@ -405,7 +405,7 @@ function Header() {
           'Content-Type': 'application/json',
         },
       });
-      // console.log(rds.data)
+      console.log(rds.data)
       e.target.innerHTML = "<i className='fa-solid fa-check'></i> Unfollowed";
       e.target.style.opacity = '0.6'
       e.target.style.pointerEvents = 'none'
