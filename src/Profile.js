@@ -2053,7 +2053,7 @@ upsd.current.style.display='none'
 
 
       {viss && <div ref={po} className='all'>
-  <div ref={popup23} style={{overflowY:'hidden',overflowX:'hidden',height:'90vh'}} className="post">
+  <div ref={popup23} style={{overflowY:'hidden',overflowX:'hidden',height:'90vh',display:'flex',flexDirection:'column',justifyContent:'space-around'}} className="post">
   <div style={{display:'flex',justifyContent:'space-around',alignItems:'center'}}>
     <div style={{display:'flex',justifyContent:'space-around',alignItems:'center'}}>{formDataav.imageav && (<img onLoad={handleImageLoad2} loading="lazy"
             src={`https://soc-net.info/api/${formDataav.imageav}`} 
