@@ -24,6 +24,7 @@ a{
 img {
   opacity: 0;
   transition: opacity 0.5s ease;
+  object-fit:cover;
 }
 
 img[data-loaded="true"] {
