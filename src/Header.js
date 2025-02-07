@@ -1653,7 +1653,7 @@ up.current.style.display='none'
                     setLikes((prevState) => [...prevState, table]);
                   })
                   setRess(rresponses.data)
-                  // console.log(rresponses.data)
+                  console.log(rresponses.data)
                   setCheckNewComments(rresponses.data)
                   // console.log(rresponses.data)
                   // document.body.click();
