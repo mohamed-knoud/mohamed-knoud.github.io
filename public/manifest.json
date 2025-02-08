@@ -1,6 +1,6 @@
 {
-  "short_name": "soc-net",
-  "name": "Soc-Net Social Media",
+  "short_name": "eSantePlus",
+  "name": "eSantePlus Telemedecine",
   "icons": [
     {
       "src": "logo.png",
@@ -17,7 +17,7 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "theme_color": "#000000",
-  "description": "A Social Media Website",
+  "description": "A Social Media Website named eSantePlus for Telemedecine",
   "orientation": "portrait",
   "scope": "/",
   "dir": "rtl",
