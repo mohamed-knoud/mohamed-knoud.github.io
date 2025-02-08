@@ -2310,7 +2310,8 @@ marginBottom:'6px',maxWidth: '100%',marginRight:'15px', height: '35px' ,width:'3
             <div style={{ display: 'flex' }}>
               {item.image ? (
                 <img
-                  onLoad={handleImageLoad}
+                  onLoad={handleImageLoad2}
+                  loading="lazy"
                   src={`https://soc-net.info/api/${item.image}`}
                   alt="Profile Preview"
                   style={{
@@ -2422,9 +2423,11 @@ marginBottom:'6px',maxWidth: '100%',marginRight:'15px', height: '35px' ,width:'3
              <div style={{ display: 'flex' }}>
                {item.image ? (
                  <img
-                 onLoad={handleImageLoad}
+                 onLoad={handleImageLoad2}
+                
                    src={`https://soc-net.info/api/${item.image}`}
                    alt="Profile Preview"
+                   loading="lazy"
                    style={{
                      marginLeft: '1px',
                      marginBottom: '6px',
@@ -2484,6 +2487,7 @@ marginBottom:'6px',maxWidth: '100%',marginRight:'15px', height: '35px' ,width:'3
                    src={`https://soc-net.info/api/${item.image}`}
                    alt="Profile Preview"
                     onLoad={handleImageLoad2}
+                    loading="lazy"
                    style={{
                      marginLeft: '1px',
                      marginBottom: '6px',
