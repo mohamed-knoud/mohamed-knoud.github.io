@@ -1791,7 +1791,7 @@ marginRight:'10px',opacity: isLoaded ? 1 : 0,objectFit: 'cover',width:'45px',hei
       return (
           <div style={{display:'flex',marginBottom:'10px',justifyContent:'space-between'}} key={index}>
             <div style={{display:'flex'}}>
-              {item.image!=null && <img onLoad={handleImageLoad} loading="lazy"
+              {item.image!=null && <img onLoad={handleImageLoad2} loading="lazy"
                   src={`https://soc-net.info/api/${item.image}`} 
                   alt="Preview" 
                   style={{
@@ -2531,6 +2531,7 @@ marginBottom:'6px',maxWidth: '100%',marginRight:'15px', height: '35px' ,width:'3
     minHeight: '100%',
     position: 'absolute',  // Added quotes around 'absolute'
     transition: 'opacity 0.5s ease',
+    opacity: isLoaded ? 1 : 0,
   }}
   onLoad={handleImageLoad}
   loading="lazy"
