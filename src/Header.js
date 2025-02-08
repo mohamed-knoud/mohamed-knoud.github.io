@@ -2479,7 +2479,7 @@ marginBottom:'6px',maxWidth: '100%',marginRight:'15px', height: '35px' ,width:'3
                  <img
                    src={`https://soc-net.info/api/${item.image}`}
                    alt="Profile Preview"
-                    onLoad={handleImageLoad}
+                    onLoad={handleImageLoad2}
                    style={{
                      marginLeft: '1px',
                      marginBottom: '6px',
@@ -2539,7 +2539,7 @@ marginBottom:'6px',maxWidth: '100%',marginRight:'15px', height: '35px' ,width:'3
                     <div style={{display:'flex',alignItems:'center',justifyContent:'space-between'}}>
                       <div style={{display:'flex',alignItems:'center'}}>
                       {item.profile_pic==null && <i id="profile111" className="dropbtn fa-solid fa-user"></i>}
-            {item.profile_pic!=null && <img onLoad={handleImageLoad} loading="lazy"
+            {item.profile_pic!=null && <img onLoad={handleImageLoad2} loading="lazy"
                 src={`https://soc-net.info/api/${item.profile_pic}`} 
                 alt="Preview" 
                 style={{
