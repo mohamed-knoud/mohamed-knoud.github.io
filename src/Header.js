@@ -2249,7 +2249,6 @@ marginBottom:'6px',maxWidth: '100%',marginRight:'15px', height: '35px' ,width:'3
             padding: '2px',
             fontSize: '5.8em',
             color: 'white',
-            opacity: isLoaded ? 1 : 0,
             marginLeft: '10px',
             width: '170px',
             height: '170px',
@@ -2268,7 +2267,6 @@ marginBottom:'6px',maxWidth: '100%',marginRight:'15px', height: '35px' ,width:'3
               padding: '2px',
               fontSize: '5.8em',
               color: 'white',
-              opacity: isLoaded ? 1 : 0,
               marginLeft: '10px',
               width:'170px',
               height: '170px',
@@ -2315,7 +2313,6 @@ marginBottom:'6px',maxWidth: '100%',marginRight:'15px', height: '35px' ,width:'3
                   src={`https://soc-net.info/api/${item.image}`}
                   alt="Profile Preview"
                   style={{
-                    opacity: isLoaded ? 1 : 0,
                     marginLeft: '1px',
                     marginBottom: '6px',
                     maxWidth: '100%',
@@ -2435,7 +2432,6 @@ marginBottom:'6px',maxWidth: '100%',marginRight:'15px', height: '35px' ,width:'3
                      maxWidth: '100%',
                      marginRight: '15px',
                      height: '45px',
-                     opacity: isLoaded ? 1 : 0,
                      width: '45px',
                      verticalAlign: 'middle',
                      borderRadius: '50%',
@@ -2494,7 +2490,6 @@ marginBottom:'6px',maxWidth: '100%',marginRight:'15px', height: '35px' ,width:'3
                      maxWidth: '100%',
                      marginRight: '15px',
                      height: '45px',
-                     opacity: isLoaded ? 1 : 0,
                      width: '45px',
                      transition: 'opacity 0.5s ease',
                      verticalAlign: 'middle',
@@ -2536,7 +2531,6 @@ marginBottom:'6px',maxWidth: '100%',marginRight:'15px', height: '35px' ,width:'3
     minHeight: '100%',
     position: 'absolute',  // Added quotes around 'absolute'
     transition: 'opacity 0.5s ease',
-    opacity: isLoaded ? 1 : 0,
   }}
   onLoad={handleImageLoad}
   loading="lazy"
@@ -2555,7 +2549,6 @@ marginBottom:'6px',maxWidth: '100%',marginRight:'15px', height: '35px' ,width:'3
                     marginBottom: '6px',
                     maxWidth: '100%',
                     marginRight: '5px',
-                    opacity: isLoaded ? 1 : 0,
                     transition: 'opacity 0.5s ease',
                     height: '55px',
                     width: '55px',
@@ -2611,7 +2604,6 @@ marginBottom:'6px',maxWidth: '100%',marginRight:'15px', height: '35px' ,width:'3
                     marginBottom: '6px',
                     maxWidth: '100%',
                     marginRight: '15px',
-                    opacity: isLoaded ? 1 : 0,
                     transition: 'opacity 0.5s ease',
                     display:'inline-block',
                     height: '200px',
