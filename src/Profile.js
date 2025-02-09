@@ -2310,7 +2310,7 @@ upsd.current.style.display='none'
   </div>}
 
   {<div style={{textAlign:'center',marginBottom:'20px'}}>
-        <h1>Posts</h1>
+        <h1 style={{marginBottom:'10px'}}>Posts</h1>
         {(res && (res.data.response.blocked2!==0 || res.data.response.blocked!==0)) ? <p style={{width:'70%',margin:'auto',padding:'15px',backgroundColor:'rgba(0,0,0,0.2)'}}><i style={{marginRight:'10px',color:'#FFF',borderRadius:'50%',padding:'10px',backgroundColor:'rgba(0,0,0,0.7)'}} className="fa-solid fa-x"></i>You are not allowed to see posts !</p> :
         <div style={{textAlign:'center',display:'flex',flexWrap:'wrap',width:'70%',margin:'auto'}}>
         {redss!==null && redss.length!=0 ? redss.map((item, index) => {
