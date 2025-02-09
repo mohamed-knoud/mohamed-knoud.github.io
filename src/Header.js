@@ -1739,7 +1739,7 @@ loading="lazy"
             alt="Preview" 
             // id="image30" 
             style={{transition: 'opacity 0.5s ease',
-marginRight:'10px',opacity: isLoaded ? 1 : 0,objectFit: 'cover',width:'45px',height:'45px',borderRadius:'50%'}}
+marginRight:'10px',objectFit: 'cover',width:'45px',height:'45px',borderRadius:'50%'}}
           />)}
           {!loader2 && !newMessagess[0].pic && <i id="profile31" className="dropbtn fa-solid fa-user"></i>}
           
@@ -1799,7 +1799,6 @@ marginRight:'10px',opacity: isLoaded ? 1 : 0,objectFit: 'cover',width:'45px',hei
                       marginBottom: '6px',
                       maxWidth: '100%',
                       marginRight: '15px',
-                      opacity: isLoaded ? 1 : 0,
                       height: '40px',
                       width: '40px',
                       transition: 'opacity 0.5s ease',
@@ -2034,7 +2033,6 @@ marginBottom:'6px',maxWidth: '100%',marginRight:'15px', height: '35px' ,width:'3
                     maxWidth: '100%',
                     marginRight: '5px',
                     height: '35px',
-                    opacity: isLoaded ? 1 : 0,
                     width: '35px',
                     verticalAlign: 'middle',
                     borderRadius: '50%'
@@ -2060,7 +2058,6 @@ marginBottom:'6px',maxWidth: '100%',marginRight:'15px', height: '35px' ,width:'3
                     marginBottom: '6px',
                     maxWidth: '100%',
                     // marginRight: '5px',
-                    opacity: isLoaded ? 1 : 0,
                     height: '100%',
                     width: '100%',
                     verticalAlign: 'middle',
@@ -2531,9 +2528,8 @@ marginBottom:'6px',maxWidth: '100%',marginRight:'15px', height: '35px' ,width:'3
     minHeight: '100%',
     position: 'absolute',  // Added quotes around 'absolute'
     transition: 'opacity 0.5s ease',
-    opacity: isLoaded ? 1 : 0,
   }}
-  onLoad={handleImageLoad}
+  onLoad={handleImageLoad2}
   loading="lazy"
   src={`https://soc-net.info/api/${item.photo}`}
 />
