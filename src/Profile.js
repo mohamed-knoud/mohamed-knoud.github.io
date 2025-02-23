@@ -1777,7 +1777,7 @@ upsd.current.style.display='none'
     <>
     {visibleOverlay && <div className="overlay"></div>}
     <header id="section1">
-        <div style={{textAlign:'center'}}><Link to="/feed"><span id="logo">eSantePlus</span></Link></div>
+        <div style={{textAlign:'center'}}><Link to="/feed"><span id="logo">soc-net</span></Link></div>
         <div id="second">
         <div className="dropdown">
                   <input autocomplete="off" value={user} onChange={handle} onClick={()=>{search.current.style.display='block'}} type="text" placeholder='looking for someone...'/>
