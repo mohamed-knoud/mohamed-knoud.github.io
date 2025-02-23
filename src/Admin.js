@@ -118,7 +118,7 @@ const handleVerify = async (e,email) => {
     <div className="app-wrapper">
       <aside className="app-sidebar">
         <div className="sidebar-brand">
-          eSantePlus
+          soc-net
         </div>
         <nav className="sidebar-nav">
           <ul>
