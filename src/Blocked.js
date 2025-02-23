@@ -39,7 +39,7 @@ function Home() {
     <div id="evr">
         <form id="from" method="POST">
             <div style={{fontWeight:'bold',fontsize:'1.2em',margin:'15px 15px 0 15px'}}>
-                <div style={{textAlign:'center'}}><span id='log'>eSantePlus</span></div>
+                <div style={{textAlign:'center'}}><span id='log'>soc-net</span></div>
             <p>
             {formData.firstName && formData.lastName 
               ? `${formData.firstName} ${formData.lastName}`
