@@ -1777,7 +1777,7 @@ marginRight:'10px',objectFit: 'cover',width:'45px',height:'45px',borderRadius:'5
   </div>
   </div>}
     <header id="section1">
-        <div style={{textAlign:'center'}}><a href=""><span id="logo">eSantePlus</span></a></div>
+        <div style={{textAlign:'center'}}><a href=""><span id="log>soc-net</span></a></div>
         <div id="second">
         <div className="dropdown">
           <input autocomplete="off" value={user} onChange={handle} onClick={()=>{search.current.style.display='block'}} type="text" name="user" placeholder='looking for someone...'/>
