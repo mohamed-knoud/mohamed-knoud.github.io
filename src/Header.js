@@ -1834,10 +1834,10 @@ marginRight:'10px',objectFit: 'cover',width:'45px',height:'45px',borderRadius:'5
               <i onClick={openNav2} className="fa-solid fa-message"></i>
             </div>
             <div className="dropdown">
-            {!image2 && formData.image && <img onLoad={handleImageLoad} loading="lazy" ref={popup44}
+            {!image2 && formData.image && <img onLoad={handleImageLoad2} loading="lazy" ref={popup44}
             src={`https://soc-net.info/api/${formData.image}`} 
             alt="Preview" 
-            style={{ opacity: isLoaded ? 1 : 0,marginLeft:'7px',transition: 'opacity 0.5s ease',
+            style={{ marginLeft:'7px',transition: 'opacity 0.5s ease',
 marginBottom:'6px',maxWidth: '100%',marginRight:'15px', height: '35px' ,width:'35px',verticalAlign:'middle',borderRadius:'50%'}} 
           />}
 
@@ -2109,10 +2109,10 @@ marginBottom:'6px',maxWidth: '100%',marginRight:'15px', height: '35px' ,width:'3
     
         <div style={{display:'flex',flexDirection:'column',padding:'2px',margin:'25px 30px',verticalAlign:'top'}}>
         <div style={{display:'flex'}}>
-        {formData.image && (<img onLoad={handleImageLoad} loading="lazy"
+        {formData.image && (<img onLoad={handleImageLoad2} loading="lazy"
             src={`https://soc-net.info/api/${formData.image}`} 
             alt="Preview" 
-            style={{ opacity: isLoaded ? 1 : 0,transition: 'opacity 0.5s ease',maxWidth: '100%',marginRight:'15px', height: 'auto' ,width:'60px',verticalAlign:'top',height:'60px',borderRadius:'50%'}} 
+            style={{ transition: 'opacity 0.5s ease',maxWidth: '100%',marginRight:'15px', height: 'auto' ,width:'60px',verticalAlign:'top',height:'60px',borderRadius:'50%'}} 
           />)}
           {!formData.image && <i id="profile3" style={{marginRight:'15px'}} className="dropbtn fa-solid fa-user"></i>}
           <div style={{overflow:'hidden',display:'flex',flexDirection:'column'}}>
